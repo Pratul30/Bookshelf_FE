@@ -1,0 +1,37 @@
+hr{
+    flex-grow: 1;
+    height: 5px;
+    background-color: white;
+    border: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.headerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerCircular{
+    border-radius: 50%;
+    border: 2px white solid;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.circluarContent{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+}

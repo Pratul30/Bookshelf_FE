@@ -1,0 +1,7 @@
+.bodyHome{
+    background-color: #494748;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}

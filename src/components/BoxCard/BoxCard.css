@@ -1,0 +1,30 @@
+.blog {
+    border: 1px solid;
+    height: 250px;
+    width: 200px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogImage {
+    width: 100%;
+    height: 60%;
+}
+
+.blogContent {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.reactions {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+}
+
+#likedImg{
+    height: 100%;
+    width: 35px;
+}
